@@ -40,6 +40,7 @@ inline void GetMaxScoreIndex(const std::vector<float>& scores, const float thres
         score_index_vec.resize(top_k);
     }
 }
+  ////////////////hood
 
 template <typename BoxType>
 inline void NMSFast_(const std::vector<BoxType>& bboxes,
